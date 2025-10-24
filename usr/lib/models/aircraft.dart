@@ -1,3 +1,5 @@
+import 'package:flutter/painting.dart';
+
 class Aircraft {
   String id;
   String callsign;
@@ -19,5 +21,5 @@ class Aircraft {
     required this.tagPosition,
   });
 
-  String get displayInfo => '$callsign\n$type\nFL$flightLevel\n$speed kt\n$sq'
+  String get displayInfo => '$callsign\n$type\nFL$flightLevel\n$speed kt\n$squawk';
 }
